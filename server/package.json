@@ -1,0 +1,40 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "my app",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.2.0",
+    "cookie-session": "^1.4.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "prettier": "^1.19.1",
+    "react-scripts": "^2.1.8"
+  },
+  "engines": {
+    "node": "12.16.0",
+    "npm": "6.13.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon pass.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul9115/React_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahul9115/React_project/issues"
+  },
+  "homepage": "https://github.com/rahul9115/React_project#readme"
+}
